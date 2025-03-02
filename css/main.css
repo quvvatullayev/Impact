@@ -1,6 +1,7 @@
 /* nav bar */
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
 }
 .fiec_nav{
     background-color: #008374 !important;
@@ -45,7 +46,7 @@ body{
     color: #ffffff;
 }
 
-/* main */
+/* main css */
 .main-section-container{
     background-color: #008374;
     font-family: sans-serif;
@@ -87,12 +88,12 @@ body{
     height: 180%;
     width: 100%;
     box-shadow: 0px 0px 20px 0px #007D6F;
-    border-color: #008374;
     display: grid;
     align-items: center;
     justify-items: center;
     align-content: space-around;
     cursor:pointer;
+    border-color: #007D6F;
 
 }
 
@@ -106,6 +107,7 @@ body{
     align-items: center;
     justify-items: center;
     align-content: space-around;
+    background-color: #007D6F;
 } 
 
 .main-section-card-icon{
@@ -183,9 +185,6 @@ body{
     width: 50px;
     height: 3px;
     background:  rgb(0, 131, 116);
-    left: 0;
-    right: 0;
-    bottom: 0;
     margin: auto;
 }
 
@@ -438,3 +437,93 @@ body{
     width: 15px;
     margin-left: 2px;
   }
+
+  /* portfolio css */
+  .portfolio-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-header-h2{
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  align-items: center;
+  
+}
+
+.portfolio-header-underlin{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color:  rgb(0, 131, 116);
+}
+
+.portfolio-header-p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+.portfolio-body{
+    display: grid;
+    align-items: center;
+    gap: 50px;
+}
+
+.portfolio-card{
+    width: 100%;
+    margin-top: 25px;
+    border-color: #ffffff;
+    box-shadow: 20px 20px 20px 40px rgb(238, 238, 238);
+
+    position: relative; /* Hover effekti uchun pozitsiya kerak */
+    overflow: hidden; /* Rasmni carddan tashqariga chiqmasligini ta'minlaydi */
+    border: 1px solid #ddd; /* Kartaning ramkasi */
+    border-radius: 10px; /* Yuqori burchaklarni yumaloq qilish */
+  }
+  
+  /* Rasm */
+  .portfolio-card-img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease; /* Animatsiya uchun */
+    object-fit: contain; /* Rasmni kartaga to'g'ri joylashtiradi */
+    z-index: 1;
+  }
+  
+  /* Hover effekti */
+  .portfolio-card:hover .portfolio-card-img {
+    transform: scale(1.2); /* Rasmni faqat gorizontal ravishda kattalashtirish */
+  }
+  
+  .portfolio-card-title, .portfolio-card-text {
+    text-align: center;
+  }
+  .card-body{
+    z-index: 100;
+    background-color: white;
+    display: grid;
+    justify-items: start;
+  }
+
+  .portfolio-card-title{
+    font-size:large;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+.call-action-container-card{
+    height: 500px;
+    overflow: scroll;
+    /* position: fixed; */
+}
+  
