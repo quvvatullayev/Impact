@@ -437,6 +437,22 @@ body{
     margin-left: 2px;
   }
 
+  .call-action-container-img{
+    content: "";
+    background: rgba(141, 138, 138, 0.5);
+    position: absolute;
+    inset: 1;
+    z-index: 2;
+    border-color: #ffffff;
+  }
+  .call-action-container{
+    color: #ffffff;
+    background-color: #ffffff;
+    padding: 60px 0;
+    scroll-margin-top: 112px;
+    overflow: clip;
+  }
+
   /* portfolio css */
   .portfolio-header{
     display: flex;
@@ -569,6 +585,9 @@ body{
     border-radius: 20px !important;
     padding: 20px;
     width: 100%;
+
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 .team-card{
@@ -576,6 +595,7 @@ body{
     margin-top: 25px;
     border-color: #ffffff;
     box-shadow: 20px 20px 20px 40px rgb(238, 238, 238);
+    text-align: center;
 }
 
 .team-card-heading{
@@ -589,4 +609,25 @@ body{
     display: block;
     font-size: 14px;
     color: rgb(172, 172, 172);
+}
+
+.team-card-icon{
+    /* width: px; */
+    color: rgb(172, 172, 172);
+}
+
+.team-icon{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex   ;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid rgb(172, 172, 172);
+    margin-left: 20px;
+}
+
+.team-icon:hover .team-card-icon, .team-icon:hover{
+    border-color: #007D6F;
+    color: #007D6F;
 }
