@@ -97,7 +97,6 @@ body{
 
 }
 
-
 .main-section-card:hover{
     background-color: #118a7c;
 }
@@ -107,7 +106,7 @@ body{
     align-items: center;
     justify-items: center;
     align-content: space-around;
-    background-color: #007D6F;
+    /* background-color: #007D6F; */
 } 
 
 .main-section-card-icon{
@@ -508,7 +507,7 @@ body{
   .portfolio-card-title, .portfolio-card-text {
     text-align: center;
   }
-  .card-body{
+  .portfolio-card-body{
     z-index: 100;
     background-color: white;
     display: grid;
