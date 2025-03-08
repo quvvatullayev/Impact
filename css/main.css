@@ -239,7 +239,6 @@ body{
 
 .bi-check-circle-fill{
     display: inline-block;
-    /* font-family: bootstrap-icons !important; */
     font-style: normal;
     font-weight: normal !important;
     font-variant: normal;
@@ -262,7 +261,6 @@ body{
 }
 .carousel-img{
     height: 50px;
-    /* width: 0%; */
 }
 .carousel-img:hover{
     height: 55px;
@@ -283,9 +281,9 @@ body{
 .statistic-img{
     width: 100%;
 }
+
 .statistic-item-contaner{
     display: grid;
-
 }
 
 .statistic-item-digit{
@@ -299,7 +297,6 @@ body{
 
 .statistic-item-text{
     color: rgb(129, 138, 150);
-    /* padding: 15px 0 0 0; */
     font-family: sans-serif;
     font-size: 18px;
     margin-left: 70px;
@@ -360,18 +357,12 @@ body{
     margin: 35px 50px 20px 50px;
 }
 
-/* .services-card-heder:hover{
-    background-color:rgb(26, 143, 130);
-} */
 
 .services-card-link{
     text-decoration: none;
     color: rgb(194, 193, 193);
 }
 
-/* .services-card-link:hover{
-    color: rgb(26, 143, 130);
-} */
 
 .services-card-title{
     font-size: 30px;
@@ -437,14 +428,6 @@ body{
     margin-left: 2px;
   }
 
-  .call-action-container-img{
-    content: "";
-    background: rgba(141, 138, 138, 0.5);
-    position: absolute;
-    inset: 1;
-    z-index: 2;
-    border-color: #ffffff;
-  }
   .call-action-container{
     color: #ffffff;
     background-color: #ffffff;
@@ -537,11 +520,72 @@ body{
   }
   
 .call-action-container-card{
-    height: 500px;
-    overflow: scroll;
-    /* position: fixed; */
+    height: 300px;
+    text-align: center !important;
+    vertical-align: middle;
+    transform: translateY(-380px);
+    background-color: transparent !important;
+
 }
-  
+
+.call-action-container{
+    padding: 60px 0;
+    scroll-margin-top: 112px;
+    height: 600px;
+    
+}
+
+.call-action-container::before{
+    /* background-image: url('./imgs/cta-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;  */
+}
+.call-action-container-img{
+    filter:  brightness(50%);
+    border-radius: 20px;
+    height: 90%;
+    width: 100%;
+}
+
+.call-action-container-card{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    padding: 0 200px 0 200px;
+}
+
+
+.call-action-container-title{
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+ 
+.call-action-container-text{
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.call-action-container-btn{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 12px 40px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin: 10px;
+    margin-left: 360px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    width: 200px;
+}
+
+.call-action-container-btn:hover{
+    border-color: #007D6F;
+    background-color: #007D6F;
+}
 
 .team-header{
     display: flex;
