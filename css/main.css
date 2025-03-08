@@ -165,6 +165,7 @@ body{
       display: flex;
       justify-content: center;
       align-items: center;
+      text-align: center;
 }
 
 .about-header-h2{
@@ -185,6 +186,8 @@ body{
     height: 3px;
     background:  rgb(0, 131, 116);
     margin: auto;
+    text-align: center;
+    margin-left: 350px;
 }
 
 .about-header-p{
@@ -319,6 +322,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .services-header-h2{
@@ -338,6 +342,9 @@ body{
   width: 50px;
   height: 3px;
   background:  rgb(0, 131, 116);
+  text-align: center;
+  margin-left: 380px;
+
 }
 
 .services-header-p{
@@ -441,6 +448,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .portfolio-header-h2{
@@ -460,6 +468,8 @@ body{
   width: 50px;
   height: 3px;
   background-color:  rgb(0, 131, 116);
+  text-align: center;
+  margin-left: 380px;
 }
 
 .portfolio-header-p{
@@ -591,6 +601,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .team-header-h2{
@@ -610,6 +621,8 @@ body{
   width: 50px;
   height: 3px;
   background:  rgb(0, 131, 116);
+  text-align: center;
+  margin-left: 380px;
 }
 
 .team-header-p{
@@ -685,6 +698,10 @@ body{
 
 .proicing-body{
     height: 800px;
+}
+
+.pricing-header-underlin{
+    margin-left: 350px;
 }
 
 .proicing-card{
@@ -862,3 +879,23 @@ body{
     color: #007D6F;
 }
 
+/* recent */
+
+.recent-container{
+    margin-top: 200px;
+}
+
+.team-header{
+    text-align: center;
+}
+
+.recent-header-underlin{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background:  rgb(0, 131, 116);
+    text-align: center;
+    margin-left: 400px !important;
+  }
